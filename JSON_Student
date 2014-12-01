@@ -1,0 +1,56 @@
+{
+	"Type":"postgresql",
+	"File Name":"student.csv",
+	"Source url":"127.0.0.1:5432",
+	"Source username":"postgres",
+	"Source password":"password",
+	"Source Database":"events",	
+	"Source Table":"student",
+	"Cassandra url":"127.0.0.1",
+	"Cassandra Keyspace":"mykeyspace",	
+	"Cassandra Table":"student",
+	"Is ColumnName in first Row":0,
+	"Columns":
+	[
+		{	
+			"Source Column Name":"StudentId",
+			"Destination Column Name":"StudentId",
+			"Sequence":"1",
+			"Data Type":"int",
+			"Size":"1024",
+			"Default":"1"
+		} ,
+		{	
+			"Source Column Name":"Name",
+			"Destination Column Name":"Name",
+			"Sequence":"2",
+			"Data Type":"String",
+			"Size":"1024",
+			"Default":"default_name"
+		},
+		{	
+			"Source Column Name":"Age",
+			"Destination Column Name":"Age",
+			"Sequence":"3",
+			"Data Type":"int",
+			"Size":"1024",
+			"Default":"22"
+		},
+		{	
+			"Source Column Name":"College",
+			"Destination Column Name":"College",
+			"Sequence":"4",
+			"Data Type":"String",
+			"Size":"1024",
+			"Default":"default_college"
+		},
+		{	
+			"Source Column Name":"Address",
+			"Destination Column Name":"Address",
+			"Sequence":"5",
+			"Data Type":"String",
+			"Size":"1024",
+			"Default":"default_address"
+		}
+	]
+}
