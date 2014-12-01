@@ -1,0 +1,32 @@
+{
+	"Type":"postgresql",
+	"File Name":"file.csv",
+	"Source url":"127.0.0.1:5432",
+	"Source username":"postgres",
+	"Source password":"password",
+	"Source Database":"events",	
+	"Source Table":"potluck",
+	"Cassandra url":"127.0.0.1",
+	"Cassandra Keyspace":"mykeyspace",	
+	"Cassandra Table":"mytable",
+	"Is ColumnName in first Row":0,
+	"Columns":
+	[
+		{	
+			"Source Column Name":"name",
+			"Destination Column Name":"firstname",
+			"Sequence":"1",
+			"Data Type":"String",
+			"Size":"1024",
+			"Default":"Me"
+		} ,
+		{	
+			"Source Column Name":"food",
+			"Destination Column Name":"college",
+			"Sequence":"2",
+			"Data Type":"String",
+			"Size":"1024",
+			"Default":"20"
+		}
+	]
+}
